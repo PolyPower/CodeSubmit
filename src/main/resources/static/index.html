@@ -1,0 +1,28 @@
+<html>
+	<!-- This page will be shown when you git the root URL -->
+	<head>
+	    <title>CS480 Demo HomePage</title>
+	    <script src="//code.jquery.com/jquery-1.11.0.min.js"></script>
+	    <script src="/js/home-control.js"></script>
+	</head>
+
+	<body onload="healthCheck();">
+		Demo Project is running: <label id="status"></label>
+	</body>
+
+</html>
+
+<html>
+<body>
+	<form method="POST" enctype="multipart/form-data"
+		action="/upload">
+		File to upload: Upload File: <input type="file" name="file">
+		<br /><br /> <input type="submit"
+			value="Upload"> Press here to upload the file!
+	</form>
+</body>
+</html>
+
+
+
+
